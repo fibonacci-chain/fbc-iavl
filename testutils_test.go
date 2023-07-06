@@ -78,7 +78,7 @@ func T(n *Node) (*MutableTree, error) {
 	if err != nil {
 		return nil, err
 	}
-	t.ImmutableTree().root = n
+	t.root = n
 	return t, nil
 }
 
